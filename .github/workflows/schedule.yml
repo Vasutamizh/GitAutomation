@@ -1,7 +1,7 @@
 name: Daily GitLab Contribution Check
 on:
   schedule:
-    - cron: '45 4 * * *'  # 11:50 PM UTC daily
+    - cron: '30 5 * * *' 
   workflow_dispatch:
 jobs:
   run-jar:
